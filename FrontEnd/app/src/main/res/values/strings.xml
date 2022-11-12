@@ -2,11 +2,20 @@
     <string name="app_name">LoveTank</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label">LoveTank Information Page</string>
+    <string name="wife_name">Wife\'s Name</string>
+    <string name="husband_name">Husband\'s Name</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="previous">Go Back!</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="first_name">first name</string>
+    <string name="wife_s_phoneNumber">Wife\'s Phone Number</string>
+    <string name="wife_s_loveLanguage">Wife\'s Love Language</string>
+    <string name="husband_s_phoneNumber">Husband\'s Phone Number</string>
+    <string name="husband_s_loveLanguage">Husband\'s Love Language</string>
+    <string name="phone_number">(XXX)XXX-XXXX</string>
+    <string name="Thank_you">Thanks for submitting your information! You should be receiving a text soon :))</string>
 </resources>

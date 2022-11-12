@@ -1,28 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:stretchColumns="3"
     tools:context=".FirstFragment">
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:text="@string/wife_name" />
+        <EditText android:id="@+id/wifeNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:hint="@string/first_name" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:text="@string/wife_s_phoneNumber"/>
+        <EditText android:id="@+id/wifePhoneField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loveLanguageDropdown"
+            android:hint="select love language"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableEnd="@android:drawable/arrow_down_float"
+            android:background="@android:drawable/editbox_background"/>
 
-    <TextView
-        android:id="@+id/textview_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+<!--    <TableRow>-->
+<!--        <TextView android:layout_height="wrap_content"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:text="@string/wife_s_loveLanguage"/>-->
+<!--        <Spinner-->
+<!--            android:id="@+id/spinnerText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right" />-->
+<!--    </TableRow>-->
 
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:text="@string/husband_name" />
+        <EditText android:id="@+id/husbandNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:hint="@string/first_name" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:text="@string/husband_s_phoneNumber"/>
+        <EditText android:id="@+id/husbandsPhoneField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loveLanguageDropdown2"
+            android:hint="select love language"
+            android:padding="12dp"
+            android:drawablePadding="16dp"
+            android:drawableEnd="@android:drawable/arrow_down_float"
+            android:background="@android:drawable/editbox_background"/>
+
+    </TableRow>
     <Button
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:text="@string/submit"
+        android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintStart_toStartOf="parent" />
+
+</TableLayout>
