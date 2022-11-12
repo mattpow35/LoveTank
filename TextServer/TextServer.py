@@ -10,7 +10,7 @@ redis_port = 6379
 msg = ""
 
 account_sid = "AC7e552889981f23f2dab7d4e11f440d93"
-auth_token = 'f7034dca060e1aa6d320cee6f22181f5'
+auth_token = ''
 client = Client(account_sid, auth_token)
 my_twilio_num = '+18609796457'
 admin_num = "+18019604992"
