@@ -91,6 +91,7 @@
         android:layout_height="wrap_content"
         android:text="@string/submit"
         android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+        android:backgroundTint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

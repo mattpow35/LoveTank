@@ -17,5 +17,6 @@
     <string name="husband_s_phoneNumber">Husband\'s Phone Number</string>
     <string name="husband_s_loveLanguage">Husband\'s Love Language</string>
     <string name="phone_number">(XXX)XXX-XXXX</string>
-    <string name="Thank_you">Thanks for submitting your information! You should be receiving a text soon :))</string>
+    <string name="Thank_you">Thanks for signing up!</string>
+    <string name="Thank_you2">You should be receiving a text soon :))</string>
 </resources>

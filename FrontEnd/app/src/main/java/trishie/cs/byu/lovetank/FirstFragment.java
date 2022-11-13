@@ -98,7 +98,6 @@ public class FirstFragment extends Fragment {
                 jedis.lpush("phone_numbers", wifes_phone);
 
 
-
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
